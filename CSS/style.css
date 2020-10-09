@@ -1,0 +1,223 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+img
+{
+    max-width: 100%;
+}
+header
+{
+    padding: 11px 0px 11px 0px;
+
+}
+
+.mau1
+{
+    background-color: #EB1F27;
+
+}
+.text-menu
+{
+    display: none;
+}
+.menu
+{
+    font-size: 20px ;
+    overflow: hidden;
+    float: left!important;
+}
+
+li :hover
+{   
+    background-color: green;
+}
+#slide
+{
+    width: 600px;
+    margin: 10px 0 0 10px;
+    border: 2px solid green;
+    border-radius: 2px;
+    display: inline-block;
+    padding 5px;
+
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: blue;
+    font-size: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #slide:hover .overlay {
+    opacity: 3;
+  }
+.topcomic
+{       
+    
+    margin: 10px;
+    padding: 20px;
+    margin-left:80px;
+
+    border: 1px solid black;
+    background-color: yellow;
+
+}
+.listtopcomic
+{
+    border: 1px solid black;
+    background-color: green;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.listtopcomic:hover 
+{
+    transform: translateX(50px);
+}
+
+.text 
+{
+    font-size: 30px;
+}
+.li a:hover
+{
+    background-color: red;
+}
+.mau-1{
+    background-color: #EB1F27;
+}
+.text-menu{
+    display: none;
+}
+
+.menu{
+    padding: 0px;  
+}
+
+
+.gach-phai{
+    border-right: 2px solid #C60A11;
+}
+
+.p-d-14{
+    padding: 14px;
+}
+
+nav a
+{
+    padding: 0px !important;
+}
+nav li:hover
+{
+    background-color: chocolate;
+}
+nav
+{
+    margin-bottom: 10px;
+}
+#search input
+{
+    margin-right: -5px;
+    border-radius: 5px;
+
+    padding-left: 12px;
+    height: 30px;
+    width: 277px;
+    border: 1px solid #222222;
+}
+#search input::placeholder
+{
+    color: #222222;
+
+}
+#search button
+{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 78px;
+}
+footer{
+    background-color: white;
+    padding: 25px 0;
+    margin-top: 32px;
+}
+
+.info h4{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom{
+    background-color: #1d1e24;
+    color: #a1b1bc;
+    padding: 13px 0;
+}
+.n-m-b{
+    margin-bottom: 0px;
+}
+.list-comic h2
+{
+    padding: 18px 0 14px 0;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.comic-lib 
+{
+    text-align: center;
+    background-color: white ;
+    border: 1px solid #999999;
+    border-radius:5px;
+    padding: 10px 27px 30px 27px ;
+   
+    transition: 0.5s;
+    position: relative;
+    box-shadow: 0 7px 7px 0;
+}
+.comic-lib:hover
+{       
+    
+   transform: translateZ(100px);
+}
+a:hover
+{
+    text-decoration: none;
+}
+a
+{
+    color: black;
+}
+.fix-padding-col
+{
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    margin-bottom: 12px;
+}
+.fix-row
+{
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+  
+}
+.row 
+{   
+
+    perspective: 600px;
+}

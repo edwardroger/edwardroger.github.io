@@ -1,0 +1,50 @@
+@media only screen and (max-width:758px)
+{
+    #slide
+    {
+        display: none;
+    }
+    .comic-lib:hover
+    {
+        transform: translateZ(10px);
+    }
+}
+@media only screen and (max-width: 992px)
+{
+    .comic-lib:hover
+    {
+        transform: translateZ(50px);
+    }
+    .topcomic
+    {
+ 
+        margin: 10px;
+        padding: 20px;
+    
+        border: 1px solid black;
+        background-color: yellow;
+        
+    }
+}
+/* Phần Login */
+/* @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+                           /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  } */
+  /* End phần Login */
