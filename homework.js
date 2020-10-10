@@ -109,22 +109,20 @@ else{
     alert("N is not combine of odd number")
 }
 //cau9 
-var num;
-var temp;
-var r;
-num = Number(prompt("Enter the number", 0));
-var sum = 0;
-for(temp=num;num!=0;num=num/10){
-    r=num%10;
-    sum=sum*10+r;
-}
-if(temp==sum)
-    cout << temp << " is a palindrome";
-else
-    cout << temp << " is not a palindrome";
-
-return 0;
-}
+var num = Number(prompt("Enter the number", 0));
+var i = num;
+var h = 0;
+var k = 0;
+    while (num > 0) {
+        k = num % 10;
+        h = h * 10 + k;
+        num = Math.floor(num / 10);
+    }
+    if (i == h) {
+        console.log(i + " is a palindrome")
+    } else {
+        console.log(i + " isn't a palindrome")
+    }
 //cau10
 var plus=0;
 for(var i=1;i<=9;i++)
