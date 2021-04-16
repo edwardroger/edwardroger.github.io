@@ -1,30 +1,3 @@
-let zalo = 0, credit = 0, live = 0, airpay = 0;
-$(document).ready(function () {
-    $(".btn-tt").click(function (e) { 
-        e.stopPropagation();
-        $(".tc").css("display","block");
-        $(".tc").animate
-        ({ opacity: 0},0.001);
-        $("html, body").animate
-        (
-            {scrollTop: $(this).offset().top},100
-        );
-        $(".tc").animate
-        ({opacity: 1},1000); 
-    });
-    $(".card").click(
-        function (e) { 
-            e.stopPropagation();
-            let a = document.getElementsByClassName('card');
-            for(var i = 0; i < a.length; i++)
-            {
-                
-                if(a[i]!==this) $(a[i]).removeClass('activated');
-            }
-            $(this).addClass("activated");
-
-        }); 
-});
 function setrow(rowNum)
 {
      let a = '#row'+rowNum;
