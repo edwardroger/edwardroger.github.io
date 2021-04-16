@@ -1,0 +1,34 @@
+.activated
+{
+    background-color: blue;
+}
+tr th
+{
+    text-align: center;
+}
+tr td
+{
+    text-align: center;
+}
+
+.input-size-set
+{
+    width: 30px;
+}
+.card:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.jumbotron-high
+{
+    padding: 80px;
+    min-height: 250px;
+}
+
+.tc 
+{
+    background-image: url("/congrat.png");
+    display: none;
+}
